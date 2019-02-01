@@ -16,3 +16,9 @@
     justify-content: space-between;
     padding: $s-size 0;
 }
+
+.header__image{
+    max-width: 6rem;
+    max-height: 6rem;
+    margin-top: $s-size;
+}
