@@ -2,8 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 const NotFound = () => (
-    <div>
-        Oops!! 404 not found - <Link to="/">Back home</Link>
+    <div className="content-container">
+        <h2>Oops!! 404 not found - <Link to="/">Back home</Link></h2>
     </div>
 );
 

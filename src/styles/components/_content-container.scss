@@ -2,4 +2,28 @@
     margin: 0 auto;
     max-width: 80rem;
     padding: 0 $m-size;
+
+    h1 {
+        color: $dark-grey;
+        font-size: $font-size-large; 
+    }
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-main__box{
+    background: fade-out($color: #ffffff, $amount: .15);
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 25rem;
+}
+
+.box-main__title{
+    margin: 0 0 $m-size 0;
+    line-height: 1;
 }
