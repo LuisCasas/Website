@@ -5,12 +5,13 @@ const MainPage = () => (
     <div>
         <Header />
         <div className="content-container">
-            <h1>Hi there! My name is Luis Casas</h1>
+            <h1>Full Stack Web Developer</h1>
             <div className="box-main">
                 <div className="box-main__box">
                     <img src="/images/profile.png" alt="Profile image Luis Casas" />
                 </div>
-            </div>            
+            </div>  
+            <h2>More coming soon...</h2>          
         </div>
     </div>
 );

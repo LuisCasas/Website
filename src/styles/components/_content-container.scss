@@ -2,10 +2,12 @@
     margin: 0 auto;
     max-width: 80rem;
     padding: 0 $m-size;
+    color: $light-purple;
+    text-align: center;
 
     h1 {
-        color: $dark-grey;
-        font-size: $font-size-large; 
+        font-size: $font-size-xlarge; 
+        padding: $l-size 0 $m-size 0;
     }
 }
 
@@ -16,11 +18,10 @@
 }
 
 .box-main__box{
-    background: fade-out($color: #ffffff, $amount: .15);
-    border-radius: 3px;
-    padding: $l-size $m-size;
+    background: none;
+    padding: $l-size;
     text-align: center;
-    width: 25rem;
+    width: 28rem;
 }
 
 .box-main__title{

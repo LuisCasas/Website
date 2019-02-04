@@ -1,6 +1,7 @@
 .button {
-    background: $blue;
+    background: $purple;
     border: none;
+    border-radius: 3px;
     color: #ffffff;
     display: inline-block;
     padding: $m-size;
@@ -8,6 +9,7 @@
     font-size: $font-size-large;   
     line-height: 1;
     text-decoration: none; 
+    :focus {outline:0;}
 }
 
 .button--link {
